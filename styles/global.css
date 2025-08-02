@@ -1,0 +1,57 @@
+:root {
+  /* Color-Schemes */
+  --text-primary-color: #f4f4f5;
+  --text-secondary-color: #a1a1aa;
+  --stroke-color: #27272a;
+  --surfface-color: #18181b;
+  --bg-color: #09090b;
+  --brand-primary-color: #f7b733;
+  --brand-secondary-color: #fc4a1a;
+  --brand-gradient: linear-gradient(180deg, #f7b733, #fc4a1a);
+  /* Desktop-fonts */
+  --h1-desk: 64px/120% 800;
+  --h2-desk: 48px/120% 800;
+  --h3-desk: 32px/120% 800;
+  --text-span: 14/100% 500;
+  --text-sm: 16px/160%;
+  /* Mobile-fonts */
+  --h1-mobile: 40px/120% 800;
+  --h2-mobile: 24px/120% 800;
+  --h3-mobile: 20px/160% 800;
+  /* General Fonts */
+
+  --ff-sans: 'Inter', sans-serif;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl:1.5rem;
+  --fs-2xl:2.5rem;
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: (var(--fs-base));
+  color: var(--text-primary-color);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  -webkit-font-smoothing: antialiased ;
+  -moz-osx-font-smoothing: grayscale ;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+
+}
