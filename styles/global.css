@@ -5,9 +5,9 @@
   --stroke-color: #27272a;
   --surfface-color: #18181b;
   --bg-color: #09090b;
-  --brand-primary-color: #f7b733;
-  --brand-secondary-color: #fc4a1a;
-  --brand-gradient: linear-gradient(180deg, #f7b733, #fc4a1a);
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+  --brand-gradient: 90deg, #f7b733, #fc4a1a;
   /* General Fonts */
 
   --ff-sans: "Inter", system-ui, sans-serif;
@@ -74,9 +74,18 @@ h2 {
 h3 {
   font-size: var(--fs-lg);
 }
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  background: linear-gradient(var(--brand-gradient));
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
@@ -88,7 +97,7 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
-    
+
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
     --py-xl: 5rem;
