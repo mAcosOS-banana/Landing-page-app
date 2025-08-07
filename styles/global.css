@@ -3,7 +3,7 @@
   --text-primary-color: #f4f4f5;
   --text-secondary-color: #a1a1aa;
   --stroke-color: #27272a;
-  --surfface-color: #18181b;
+  --surface-color: #18181b;
   --bg-color: #09090b;
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
@@ -86,6 +86,11 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 ul[role="list"] {
