@@ -11,7 +11,7 @@
 
   border-radius: 0.5rem;
 
-  font: var(--fw-md) var(--fs-base) / 1.5rem var(--ff-sans);
+  font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
   cursor: pointer;
 
   background: var(--btn-bg-color);
@@ -34,7 +34,7 @@
 
 .btn-md {
   font-size: var(--fs-base);
-  padding: 0.75rem 1.5rem;
+  padding: .75rem 1.5rem;
 }
 
 .btn-lg {
@@ -44,6 +44,7 @@
 
 .btn[aria-label] {
   position: relative;
+  
   &::before {
     content: "";
     border-radius: inherit;
