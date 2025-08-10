@@ -35,6 +35,10 @@ html {
   color: var(--text-primary-color);
   line-height: 1.6;
   color: var(--text-primary-color);
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
 }
 
 body {
